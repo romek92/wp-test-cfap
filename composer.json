@@ -16,6 +16,7 @@
 		"ext-mbstring": "*",
 		"ext-mysqli": "*",
 		"ext-openssl": "*",
+		"ext-pdo": "*",
 		"ext-pdo_mysql": "*",
 		"ext-simplexml": "*",
 		"ext-xml": "*",
