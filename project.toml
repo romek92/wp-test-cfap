@@ -4,3 +4,11 @@ schema-version = "0.2"
 [io.buildpacks]
 # Full builder includes system libs required by PHP (libxml2, libpng, etc.)
 builder = "paketobuildpacks/builder-jammy-full"
+
+[[io.buildpacks.build.env]]
+name = "BP_WEB_SERVER"
+value = "nginx"
+
+[[io.buildpacks.build.env]]
+name = "BP_WEB_SERVER_ROOT"
+value = "."
