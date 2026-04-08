@@ -13,9 +13,5 @@ name = "BP_PHP_WEB_DIR"
 value = "htdocs"
 
 [[io.buildpacks.build.env]]
-name = "COMPOSER"
-value = "htdocs/composer.json"
-
-[[io.buildpacks.build.env]]
 name = "BP_PHP_ENABLE_HTTPS_REDIRECT"
 value = "false"
